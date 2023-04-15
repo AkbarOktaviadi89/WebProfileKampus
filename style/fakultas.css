@@ -1,0 +1,96 @@
+/* Style untuk header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header img {
+    height: 70px;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #00a8ff;
+  }
+  
+ /* Style untuk section fakultas */
+#fakultas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+  }
+  
+  #fakultas h1 {
+    font-size: 36px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .program-studi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .program-studi > div {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    min-width: 300px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .program-studi > div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .program-studi b {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .program-studi ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .program-studi ul li {
+    padding-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .program-studi ul li:hover {
+    color: #555;
+    transform: scale(1.1);
+  }

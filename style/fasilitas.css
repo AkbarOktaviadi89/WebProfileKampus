@@ -1,0 +1,54 @@
+.containerf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.caption {
+  padding-top: 10px;
+}
+
+.box {
+  flex-basis: calc(50% - 20px);
+  margin: 10px;
+  text-align: center;
+}
+
+.box img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.box p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.box-1 {
+  order: 1;
+}
+
+.box-2 {
+  order: 2;
+}
+
+.box-3 {
+  order: 4;
+}
+
+.box-4 {
+  order: 3;
+}
+
+.box img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+      flex-basis: calc(100% - 20px);
+  }
+}

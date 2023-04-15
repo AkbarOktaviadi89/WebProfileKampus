@@ -1,0 +1,287 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+}
+
+/* Style untuk header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header img {
+    height: 70px;
+  }
+  nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #00a8ff;
+  }
+  
+
+/* Style for main content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* styling untuk section 1 */
+#section1 {
+    background-color: #F7CAC9;
+    padding: 50px;
+    text-align: center;
+}
+
+#section1 h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#section1 p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+/* styling untuk section 2 */
+#section2 {
+    background-color: #A9DEF9;
+    padding: 50px;
+    text-align: center;
+}
+
+#section2 h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#section2 p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+/* styling untuk section 3 */
+#section3 {
+    background-color: #B2B2B2;
+    padding: 50px;
+    text-align: center;
+}
+
+#section3 h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#section3 p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #fff;
+}
+
+/* styling untuk section 4 */
+#section4 {
+    background-color: #F2E8CF;
+    padding: 50px;
+    text-align: center;
+}
+
+#section4 h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#section4 p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+iframe {
+    width: 100%;
+}
+
+.program-studi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.program-studi div {
+    width: 30%;
+}
+
+.program-studi b {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.col {
+    width: 48%;
+}
+
+.col h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    nav li {
+        margin: 0 10px;
+    }
+
+    .program-studi {
+        flex-wrap: wrap;
+    }
+
+    .program-studi div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .contact-info {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .contact-info h3 {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 5px;
+  }
+  
+  .contact-info li strong {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+  }
+
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* CSS untuk section Tentang */
+#tentang {
+    padding: 80px 0;
+    background-color: #f2f2f2;
+  }
+  
+  #tentang h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  #tentang p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  #tentang .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #tentang img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  #lokasi h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  video:hover {
+    opacity: 0.8;
+  }
